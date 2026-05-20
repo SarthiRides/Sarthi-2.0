@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Saarthi: Ride Compare",
+    "slug": "ride-fare-comparator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/saarthi.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/saarthi.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ridefarecomparator.app",
+      "config": {
+        "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY_HERE"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/saarthi.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY_HERE"
+        }
+      },
+      "package": "com.ridefarecomparator.app"
+    },
+    "web": {
+      "favicon": "./assets/saarthi.png"
+    }
+  }
+}
